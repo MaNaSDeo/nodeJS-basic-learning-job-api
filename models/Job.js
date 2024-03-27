@@ -14,12 +14,12 @@ const JobSchema = new mongoose.Schema(
     },
     status: {
       type: String,
-      enum: ["interview", "declined", "pending"],
+      enum: ["interview", "declined", "pending"], //enum: This is a property that ensures the value of a field is restricted to a specific set of values.
       default: "pending",
     },
     createdBy: {
       type: mongoose.Types.ObjectId,
-      ref: "User",
+      ref: "User", //ref: This property is used to define a reference to another schema.
       required: [true, "Please provide user"],
     },
   },
