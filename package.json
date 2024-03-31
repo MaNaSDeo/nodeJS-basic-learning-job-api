@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon app.js"
   },
-  "author": "",
+  "repository": "https://github.com/MaNaSDeo/nodeJS-basic-learning-job-api.git",
+  "author": "MaNaSDeo <rmnslogin@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
